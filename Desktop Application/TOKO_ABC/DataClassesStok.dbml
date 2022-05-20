@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="stok_db" Class="StokDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=stok_db;Integrated Security=True" SettingsObjectName="TOKO_ABC.Properties.Settings" SettingsPropertyName="stok_dbConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.barang" Member="barangs">
+    <Type Name="barang">
+      <Column Name="id_barang" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nama_barang" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="harga" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="id_supplier" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="jns_barang" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="jumlah" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="keterangan" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Association Name="barang_pembelian_barang" Member="pembelian_barangs" ThisKey="id_barang" OtherKey="id_barang" Type="pembelian_barang" />
+      <Association Name="barang_penjualan_barang" Member="penjualan_barangs" ThisKey="id_barang" OtherKey="id_barang" Type="penjualan_barang" />
+      <Association Name="supplier_barang" Member="supplier" ThisKey="id_supplier" OtherKey="id_supplier" Type="supplier" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.users" Member="users">
+    <Type Name="user">
+      <Column Name="id_user" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nama" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.pembeli" Member="pembelis">
+    <Type Name="pembeli">
+      <Column Name="id_pembeli" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nama" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="alamat" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="no_telp" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Association Name="pembeli_penjualan_barang" Member="penjualan_barangs" ThisKey="id_pembeli" OtherKey="id_pembeli" Type="penjualan_barang" />
+    </Type>
+  </Table>
+  <Table Name="dbo.pembelian_barang" Member="pembelian_barangs">
+    <Type Name="pembelian_barang">
+      <Column Name="id_pembelianbarang" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_barang" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="id_supplier" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="tanggal" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="jumlah" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="harga" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="keterangan" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Association Name="barang_pembelian_barang" Member="barang" ThisKey="id_barang" OtherKey="id_barang" Type="barang" IsForeignKey="true" />
+      <Association Name="supplier_pembelian_barang" Member="supplier" ThisKey="id_supplier" OtherKey="id_supplier" Type="supplier" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.penjualan_barang" Member="penjualan_barangs">
+    <Type Name="penjualan_barang">
+      <Column Name="id_penjualanbarang" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id_pembeli" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="tanggal" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="jumlah" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="id_barang" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="status" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Association Name="barang_penjualan_barang" Member="barang" ThisKey="id_barang" OtherKey="id_barang" Type="barang" IsForeignKey="true" />
+      <Association Name="pembeli_penjualan_barang" Member="pembeli" ThisKey="id_pembeli" OtherKey="id_pembeli" Type="pembeli" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.supplier" Member="suppliers">
+    <Type Name="supplier">
+      <Column Name="id_supplier" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nama" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="alamat" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="no_telp" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Association Name="supplier_barang" Member="barangs" ThisKey="id_supplier" OtherKey="id_supplier" Type="barang" />
+      <Association Name="supplier_pembelian_barang" Member="pembelian_barangs" ThisKey="id_supplier" OtherKey="id_supplier" Type="pembelian_barang" />
+    </Type>
+  </Table>
+</Database>
