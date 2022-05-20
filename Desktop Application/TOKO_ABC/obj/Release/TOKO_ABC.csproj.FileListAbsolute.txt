@@ -1,0 +1,33 @@
+C:\Users\user\source\repos\TOKO_ABC\bin\Release\TOKO_ABC.exe.config
+C:\Users\user\source\repos\TOKO_ABC\bin\Release\TOKO_ABC.exe
+C:\Users\user\source\repos\TOKO_ABC\bin\Release\TOKO_ABC.pdb
+C:\Users\user\source\repos\TOKO_ABC\obj\Release\TOKO_ABC.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\TOKO_ABC\obj\Release\TOKO_ABC.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\TOKO_ABC\obj\Release\TOKO_ABC.FormBantuan.resources
+C:\Users\user\source\repos\TOKO_ABC\obj\Release\TOKO_ABC.FormBarang.resources
+C:\Users\user\source\repos\TOKO_ABC\obj\Release\TOKO_ABC.FormLogin.resources
+C:\Users\user\source\repos\TOKO_ABC\obj\Release\TOKO_ABC.FormMaster.resources
+C:\Users\user\source\repos\TOKO_ABC\obj\Release\TOKO_ABC.FormPembeli.resources
+C:\Users\user\source\repos\TOKO_ABC\obj\Release\TOKO_ABC.FormPenjualan.resources
+C:\Users\user\source\repos\TOKO_ABC\obj\Release\TOKO_ABC.FormSupplier.resources
+C:\Users\user\source\repos\TOKO_ABC\obj\Release\TOKO_ABC.Properties.Resources.resources
+C:\Users\user\source\repos\TOKO_ABC\obj\Release\TOKO_ABC.csproj.GenerateResource.cache
+C:\Users\user\source\repos\TOKO_ABC\obj\Release\TOKO_ABC.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\TOKO_ABC\obj\Release\TOKO_ABC.exe
+C:\Users\user\source\repos\TOKO_ABC\obj\Release\TOKO_ABC.pdb
+C:\Users\Lenovo\OneDrive - smkn2klaten.sch.id\LKS\Kabupaten\Desktop Application\TOKO_ABC\bin\Release\TOKO_ABC.exe.config
+C:\Users\Lenovo\OneDrive - smkn2klaten.sch.id\LKS\Kabupaten\Desktop Application\TOKO_ABC\bin\Release\TOKO_ABC.exe
+C:\Users\Lenovo\OneDrive - smkn2klaten.sch.id\LKS\Kabupaten\Desktop Application\TOKO_ABC\bin\Release\TOKO_ABC.pdb
+C:\Users\Lenovo\OneDrive - smkn2klaten.sch.id\LKS\Kabupaten\Desktop Application\TOKO_ABC\obj\Release\TOKO_ABC.csprojAssemblyReference.cache
+C:\Users\Lenovo\OneDrive - smkn2klaten.sch.id\LKS\Kabupaten\Desktop Application\TOKO_ABC\obj\Release\TOKO_ABC.FormBantuan.resources
+C:\Users\Lenovo\OneDrive - smkn2klaten.sch.id\LKS\Kabupaten\Desktop Application\TOKO_ABC\obj\Release\TOKO_ABC.FormBarang.resources
+C:\Users\Lenovo\OneDrive - smkn2klaten.sch.id\LKS\Kabupaten\Desktop Application\TOKO_ABC\obj\Release\TOKO_ABC.FormLogin.resources
+C:\Users\Lenovo\OneDrive - smkn2klaten.sch.id\LKS\Kabupaten\Desktop Application\TOKO_ABC\obj\Release\TOKO_ABC.FormMaster.resources
+C:\Users\Lenovo\OneDrive - smkn2klaten.sch.id\LKS\Kabupaten\Desktop Application\TOKO_ABC\obj\Release\TOKO_ABC.FormPembeli.resources
+C:\Users\Lenovo\OneDrive - smkn2klaten.sch.id\LKS\Kabupaten\Desktop Application\TOKO_ABC\obj\Release\TOKO_ABC.FormPenjualan.resources
+C:\Users\Lenovo\OneDrive - smkn2klaten.sch.id\LKS\Kabupaten\Desktop Application\TOKO_ABC\obj\Release\TOKO_ABC.FormSupplier.resources
+C:\Users\Lenovo\OneDrive - smkn2klaten.sch.id\LKS\Kabupaten\Desktop Application\TOKO_ABC\obj\Release\TOKO_ABC.Properties.Resources.resources
+C:\Users\Lenovo\OneDrive - smkn2klaten.sch.id\LKS\Kabupaten\Desktop Application\TOKO_ABC\obj\Release\TOKO_ABC.csproj.GenerateResource.cache
+C:\Users\Lenovo\OneDrive - smkn2klaten.sch.id\LKS\Kabupaten\Desktop Application\TOKO_ABC\obj\Release\TOKO_ABC.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive - smkn2klaten.sch.id\LKS\Kabupaten\Desktop Application\TOKO_ABC\obj\Release\TOKO_ABC.exe
+C:\Users\Lenovo\OneDrive - smkn2klaten.sch.id\LKS\Kabupaten\Desktop Application\TOKO_ABC\obj\Release\TOKO_ABC.pdb
