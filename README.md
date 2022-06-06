@@ -1,8 +1,7 @@
 # Hasil LKS Kabupaten Klaten 2022
-## Bidang Lommba : IT Software Solution for Business
+## Bidang Lomba : IT Software Solution for Business
 
 
+- **Case 1** : Desktop Application (*C#, .NET Framework, WinForms*)
 
-**Case 1** : Desktop Application (*C#, .NET Framework, WinForms*)
-
-**Case 2** : Mobile Application (*Kotlin*)
+- **Case 2** : Mobile Application (*Kotlin*)
