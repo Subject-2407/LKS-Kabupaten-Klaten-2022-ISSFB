@@ -4,4 +4,4 @@
 
 - **Case 1** : Desktop Application (*C#, .NET Framework, WinForms*)
 
-- **Case 2** : Mobile Application (*Kotlin*)
+- **Case 2** : Mobile Application (*Android Studio, Kotlin*)
